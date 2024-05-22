@@ -155,6 +155,7 @@ main , header{
 
 .extra-div{
     display: flex;
+    margin-bottom: 120px;
 }
 
 .coming-soon{
@@ -219,4 +220,38 @@ main , header{
 
 .light{
     width: 365px;
+}
+
+ /* Holiday Styles */
+
+.holiday-text{
+    text-align: center;
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.holiday-subtitle{
+    font-size: 24px;
+    font-weight:500;
+    color: #070211;
+    margin-bottom: 0px;
+}
+
+.holiday-title{
+    font-size: 72px;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holiday-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 0px;
+}
+
+.reddis-span{
+    color: #FF0000;
 }
