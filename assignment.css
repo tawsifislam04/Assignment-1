@@ -9,6 +9,7 @@
     background-size:contain;
     background-position: center;
     max-width: 1320px;
+    border-radius: 16px;
 }
 
 .banner-title {
@@ -78,7 +79,8 @@ main , header{
     gap: 0px;
     background-image: url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
-
+    margin-bottom: 0px;
+    border-radius: 16px;
 }
 
 
@@ -113,4 +115,38 @@ main , header{
 
 .pic-2024{
     width: 320px;
+}
+
+.party-address{
+    margin-top: 120px;
+    background-color: rgb(255, 0, 0,20%);
+    padding: 100px 385px 110px 385px ;
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.red{
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.black{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.address-btn{
+    background-color: #FF0000;
+    padding: 16px 32px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: 700;
 }
