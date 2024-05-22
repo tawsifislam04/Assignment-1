@@ -2,12 +2,13 @@
 
 .banner {
     background-image: url('./resources/Banner\ Image.png');
-    margin: 50px 140px 0px 140px;
+    margin-top: 50px;
+    margin-bottom: 0px;
     padding: 177px 344px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:contain;
+    background-position: center;
     max-width: 1320px;
-    max-height: 600px;
 }
 
 .banner-title {
@@ -15,6 +16,7 @@
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 16px;
+   
 }
 
 .banner-description {
@@ -22,11 +24,12 @@
     text-align: center;
     color: #FFFFFF;
     margin-top: 0px;
+    max-width: 632px;
 }
 
 /* main styles */
 
-main{
+main , header{
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
@@ -71,22 +74,25 @@ main{
 /* Party styles */
 
 .party{
+    display: flex;
+    gap: 0px;
     background-image: url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
-    width: 100%;
+
 }
 
+
 .party-heading{
-    padding: 126px 553px 0px 126px;
-    max-width: 642px;
+    padding: 126px 94px 24px 126px;
+    max-width: 542px;
     font-size: 64px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-bottom: 0px;
 }
 
 .party-description{
-    padding: 24px 497px 48px 126px;
-    max-width: 697px;
+    padding: 0px 40px 32px 126px;
+    max-width: 597px;
     font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
@@ -97,5 +103,14 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    padding: 0px 1060px 142px 158px;
+    padding: 0px 601px 142px 158px;
+    
+}
+
+.party-img{
+    padding: 68px 138px 68px 0px;
+ }
+
+.pic-2024{
+    width: 320px;
 }
