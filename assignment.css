@@ -26,6 +26,7 @@
     color: #FFFFFF;
     margin-top: 0px;
     max-width: 632px;
+    line-height: 95px;
 }
 
 /* main styles */
@@ -90,6 +91,8 @@ main , header{
     font-size: 64px;
     color: #FFFFFF;
     margin-bottom: 0px;
+    line-height: 88px;
+    letter-spacing: 11%;
 }
 
 .party-description{
@@ -99,6 +102,7 @@ main , header{
     font-weight: 400;
     color: #FFFFFF;
     margin-bottom: 0px;
+    line-height: 30px;
 }
 
 .party-btn{
@@ -124,6 +128,7 @@ main , header{
     text-align: center;
     border-radius: 16px;
     margin-bottom: 120px;
+    line-height: 56px;
 }
 
 .red{
@@ -183,6 +188,7 @@ main , header{
     font-weight: 400;
     color: rgba(7, 2, 17, 0.6);
     margin-top: 0px;
+    line-height: 32px;
 }
 
 .div-3{
@@ -204,6 +210,7 @@ main , header{
     color: rgba(7, 2, 17, 0.6);
     margin-top: 0px;
     margin-bottom: 43px;
+    line-height: 32px;
 }
 
 .div-3-pic{
@@ -250,8 +257,42 @@ main , header{
     font-weight: 500;
     color: rgba(7, 2, 17, 0.6);
     margin-top: 0px;
+    line-height: 32px;
+    margin-bottom: 64px;
 }
 
 .reddis-span{
     color: #FF0000;
+}
+
+.different-pic{
+    margin-top: 0px;
+   
+}
+
+.up{
+    max-width: 582px;
+    display: flex;
+    background-image: url('./resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: -32px;
+    margin-left: 737px;
+}
+
+.fifty{
+    margin: 131px 0px 50px 0px;
+    display: block;
+}
+
+.under{
+    background-image: url('./resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px 0px 16px 16px;
+    margin-top: -364px;
+}
+
+.giftbox{
+    width: 675px;
 }
