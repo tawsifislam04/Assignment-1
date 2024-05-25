@@ -1,4 +1,4 @@
-/* header styles */
+ /* Header Styles */
 
 .banner {
     background-image: url('./resources/Banner\ Image.png');
@@ -29,7 +29,7 @@
     line-height: 95px;
 }
 
-/* main styles */
+/* Main Styles */
 
 main , header{
     max-width: 1320px;
@@ -37,10 +37,10 @@ main , header{
     margin-right: auto;
 }
 
-/* offer styles */
+ /* Offer Styles */
 
 .offer {
-    margin: 120px 400px;
+    margin: 120px 260px;
     max-width: 803px;
 }
 
@@ -231,6 +231,7 @@ main , header{
 
  /* Holiday Styles */
 
+ 
 .holiday-text{
     text-align: center;
     max-width: 1068px;
@@ -291,8 +292,72 @@ main , header{
     background-position: bottom;
     border-radius: 16px 0px 16px 16px;
     margin-top: -364px;
+    margin-bottom: 0px;
 }
 
 .giftbox{
     width: 675px;
+}
+
+ /* Portfolio Style */
+
+.portfolio{
+    margin-top: 120px;
+}
+
+.portfolio-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.portfolio-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    width: 766px;
+}
+
+.portfolio-heading{
+    font-size: 48px;
+    color: #070211;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.portfolio-images{
+    margin-top: 0px;
+}
+
+.bag-1{
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+
+.bag-2{
+    margin-right: 20px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+}
+
+.shoe-1{
+    margin:0px;
+    margin-bottom: 24px;
+}
+
+.shoe-2{
+    margin: 0px;
+    margin-top: 14px;
+}
+
+.sunglass{
+    margin: 0px 20px;
+}
+
+.churi{
+    margin-top:0px;
 }
