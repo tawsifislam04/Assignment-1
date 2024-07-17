@@ -6,6 +6,9 @@
 
 body{
       font-family: "Inter", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 }
 
 
@@ -13,15 +16,15 @@ body{
 /* Header Styles */
 
 .banner {
-    background-image: url('./resources/Banner\ Image.png');
-    margin-top: 50px;
+    background-image: linear-gradient(to bottom , #070211,rgba(7, 2, 17, 0)) ,url('./resources/Banner\ Image.png');
     margin-bottom: 0px;
     padding: 177px 344px;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
     background-position: center;
-    max-width: 1320px;
     border-radius: 16px;
+    max-height: 600px;
+    margin-top: 50px;
 }
 
 .banner-title {
@@ -29,14 +32,14 @@ body{
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 16px;
-   
+   margin-top: 0;
 }
 
 .banner-description {
     font-size: 72px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 0px;
+    margin:0;
     max-width: 632px;
     line-height: 95px;
 }
@@ -44,6 +47,7 @@ body{
 /* Main Styles */
 
 main , header{
+    width: 82.5%;
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
@@ -51,9 +55,16 @@ main , header{
 
  /* Offer Styles */
 
+ .offer *{
+    margin: 0;
+    padding: 0;
+ }
 .offer {
-    margin: 120px 260px;
     max-width: 803px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 120px;
 }
 
 .offer-heading{
@@ -79,6 +90,7 @@ main , header{
     font-weight: 700;
     color:#070211;
     margin-top: 0px;
+    margin-bottom: 48px;
 }
 
 .offer-img{
@@ -89,26 +101,27 @@ main , header{
 
 .party{
     display: flex;
-    gap: 0px;
-    background-image: url('./resources/Vectorrr.png');
+    gap: 40px;
+    background-image: linear-gradient(to right , #070211,rgba(7, 2, 17, 0)) , url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
     margin-bottom: 0px;
     border-radius: 16px;
+    padding: 68px 138px 68px 126px;
+    align-items: center;
 }
 
 
 .party-heading{
-    padding: 126px 94px 24px 126px;
     max-width: 542px;
     font-size: 64px;
     color: #FFFFFF;
     margin-bottom: 0px;
     line-height: 88px;
     letter-spacing: 11%;
+    margin-top: 0;
 }
 
 .party-description{
-    padding: 0px 40px 32px 126px;
     max-width: 597px;
     font-size: 18px;
     font-weight: 400;
@@ -121,22 +134,20 @@ main , header{
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    padding: 0px 601px 142px 158px;
-    
+    margin-bottom: 0;
 }
 
-.party-img{
-    padding: 68px 138px 68px 0px;
- }
+/* Party Address */
 
-.pic-2024{
-    width: 320px;
+.party-address *{
+    margin: 0;
+    padding: 0;
 }
 
 .party-address{
     margin-top: 120px;
-    background-color: rgb(255, 0, 0,10%);
-    padding: 100px 385px 110px 385px ;
+    background: linear-gradient(to bottom , rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+    padding: 100px 380px 110px 380px ;
     text-align: center;
     border-radius: 16px;
     margin-bottom: 120px;
@@ -147,14 +158,12 @@ main , header{
     color: #FF0000;
     font-size: 32px;
     font-weight: 600;
-    text-align: center;
 }
 
 .black{
     color: #070211;
     font-size: 32px;
     font-weight: 600;
-    text-align: center;
 }
 
 .address-btn{
@@ -170,15 +179,20 @@ main , header{
 
  /* Extra Div Style */
 
+.extra-div *{
+    margin: 0;
+    padding: 0;
+}
+
 .extra-div{
     display: flex;
     margin-bottom: 120px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .coming-soon{
     max-width: 393px;
-    margin:104px 70px 104px 0px;
-
 }
 
 .coming-soon-title{
@@ -205,8 +219,6 @@ main , header{
 
 .div-3{
     max-width: 276px;
-    margin-left: 118px;
-    margin-top: 112px;
 }
 
 .div-3-title{
@@ -231,7 +243,6 @@ main , header{
 }
 
 .extra-div-pic{
-   margin: 0px;
     border: 23px #FF0000 solid;
     border-radius: 50%;
     padding: 49px;
@@ -243,6 +254,10 @@ main , header{
 
  /* Holiday Styles */
 
+ .holiday *{
+    margin: 0;
+    padding: 0;
+ }
  
 .holiday-text{
     text-align: center;
@@ -272,43 +287,50 @@ main , header{
     margin-top: 0px;
     line-height: 32px;
     margin-bottom: 64px;
+    text-align: center;
 }
 
 .reddis-span{
     color: #FF0000;
 }
 
-.different-pic{
-    margin-top: 0px;
-   
+.holiday-img{
+    position: relative;
+    height: 662px;
 }
 
-.up{
-    max-width: 582px;
-    display: flex;
-    background-image: url('./resources/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-bottom: -32px;
-    margin-left: 737px;
+.holiday-img img{
+    width: 100%;    
 }
 
-.fifty{
-    margin: 131px 0px 50px 0px;
-    display: block;
+.lady-img{
+    position: absolute;
+    z-index: 1;
+    left: 891px;
+    top: 0;
+    height: 65%;
+}
+.lady-img img{
+    height: 100%;
+    object-fit: cover;
 }
 
-.under{
-    background-image: url('./resources/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    border-radius: 16px 0px 16px 16px;
-    margin-top: -364px;
-    margin-bottom: 0px;
+.fifty-img{
+    position: absolute;
+    z-index: 4;
+    left: 775px;
+    top: 114px;
 }
 
-.giftbox{
-    width: 675px;
+.gift-img{
+    position: absolute;
+    top: 0;
+    left: 61px;
+    z-index: 8;
+}
+.orange-img{
+    position: absolute;
+    top: 433px;
 }
 
  /* Portfolio Style */
@@ -516,3 +538,10 @@ footer{
     margin-top: 50px ;
     margin-bottom: 60px;
 }
+
+/* Responsive */
+
+.hide{
+    display: none;
+}
+
