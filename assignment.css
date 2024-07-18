@@ -12,6 +12,13 @@ body{
 }
 
 
+main , header{
+    width: 82.5%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Header Styles */
 
@@ -23,7 +30,6 @@ body{
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    max-height: 600px;
     margin-top: 50px;
 }
 
@@ -42,15 +48,6 @@ body{
     margin:0;
     max-width: 632px;
     line-height: 95px;
-}
-
-/* Main Styles */
-
-main , header{
-    width: 82.5%;
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
  /* Offer Styles */
@@ -520,12 +517,37 @@ footer{
     font-size: 24px ;
     font-weight: 500;
     color: #FFFFFF;
-    
 }
 
 /* Responsive */
 
 .hide{
     display: none;
+}
+
+/* Mobile Device */
+
+@media screen and (max-width:576px)  {
+    .banner{
+        padding: 50px 20px; 
+        width: auto; 
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-description{
+        font-size: 30px;
+        line-height:normal;
+    }
+    .offer{
+        width: 100%;
+    }
+    .offer-heading{
+        font-size: 44px;
+        margin-bottom: 24px;
+    }
+    .offer-title{
+        font-size: 34px;
+    }
 }
 
