@@ -335,6 +335,11 @@ main , header{
 
  /* Portfolio Style */
 
+.portfolio *{
+    margin: 0;
+    padding: 0;
+}
+
 .portfolio{
     margin-top: 120px;
     margin-bottom: 0px;
@@ -366,49 +371,37 @@ main , header{
 
 .portfolio-images{
     margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
 }
 
-.bag-1{
-    margin-right: 15px;
-    margin-bottom: 24px;
-}
-
-.bag-2{
-    margin-right: 15px;
-    margin-bottom: 24px;
-    margin-left: 0px;
-}
-
-.shoe-1{
-    margin:0px;
-    margin-bottom: 24px;
-}
-
-.sunglass{
-    margin: 0px 15px;
-}
-
-.churi{
-    margin-top:0px;
+.portfolio-images img{
+    width: 100%;
 }
 
  /* Subscribe Style */
+
+.subscribe *{
+    margin: 0;
+    padding: 0;
+}
 
 .subscribe{
     margin-top: 120px;
     margin-bottom: 120px;
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
+    padding: 80px 212px;
 }
 
 .subscribe-pic{
-    padding: 80px 585px 40px 585px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .subscribe-text{
-    padding-left: 212px;
-    padding-right: 212px;
-    
+   
 }
 
 .subscribe-heading{
@@ -426,11 +419,12 @@ main , header{
     font-weight: 400;
     max-width: 896px;
     text-align: center;
+    margin-bottom: 47px;
 }
 
 .subscribe-btn-div{
-    padding: 0px 33px 80px 156px;
     max-width: 648px;
+    padding: 0 124px;
 }
 
 .subscribe-btn{
@@ -459,22 +453,21 @@ main , header{
 
 footer{
     background-color: #070211;
+    width: 100%;
     max-width: 1600px;
     margin: 0px auto;
 }
 
 .footer-content{
-    max-width: 1185px;
-    padding-left:140px;
-    padding-right: 140px;
+    padding: 110px 140px;
 }
 
 .contact{
     display: flex;
-}
-
-.footer-address{
-    padding: 120px 560px 50px 0px;
+    margin-right: 135px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .footer-address-text{
@@ -490,10 +483,6 @@ footer{
     line-height: 40px;
     font-weight: 500;
     color: #FFFFFF;
-}
-
-.contact-number{
-    padding: 120px 0px 50px 0px;
 }
 
 .flex-div{
@@ -516,9 +505,10 @@ footer{
 }
 
 .logo{
-    padding: 48px 492px 48px 500px;
     display: flex;
     gap: 24px;
+    justify-content: center;
+    margin: 48px auto;
 }
 
 .copyright{
@@ -530,13 +520,7 @@ footer{
     font-size: 24px ;
     font-weight: 500;
     color: #FFFFFF;
-    padding-top: 50px ;
-    padding-bottom: 60px;
-}
-
-.copyright p{
-    margin-top: 50px ;
-    margin-bottom: 60px;
+    
 }
 
 /* Responsive */
