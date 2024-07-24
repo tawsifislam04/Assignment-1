@@ -101,6 +101,7 @@ main , header{
     gap: 40px;
     background-image: linear-gradient(to right , #070211,rgba(7, 2, 17, 0)) , url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 0px;
     border-radius: 16px;
     padding: 68px 138px 68px 126px;
@@ -541,6 +542,7 @@ footer{
     }
     .offer{
         width: 100%;
+        margin: 50px auto;
     }
     .offer-heading{
         font-size: 44px;
@@ -548,6 +550,118 @@ footer{
     }
     .offer-title{
         font-size: 34px;
+    }
+    .party{
+        background-position: center;
+        padding: 50px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .party-heading{
+        line-height: normal;
+        font-size: 32px;
+    }
+    .party img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .party-address{
+        padding: 20px;
+        text-align: left;
+        margin: 50px auto;
+    }
+    .party-address *{
+        font-size: 16px;
+        line-height: 180%;
+    }
+    .address-btn{
+        margin-top: 10px;   
+    }
+    .extra-div{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .extra-div-pic img{
+        width: 100%;
+    }
+    .extra-div-pic{
+        padding: 20px;
+        border: 13px #FF0000 solid;
+    }
+    .holiday-img{
+        height: max-content;
+    }
+    .holiday-title{
+        font-size: 50px;
+    }
+    .orange-img{
+        top: 120px;
+    }
+    .gift-img{
+        top: 40px;
+        left: 0px;
+        width: 50%;
+    }
+    .lady-img{
+        width: 40%;
+        height: auto;
+        left: 178px;
+    }
+    .fifty-img{
+        top: 25px;
+        left: 120px;
+        width: 35%;
+    }
+    .portfolio{
+        margin-top: 350px;
+        text-align: center;
+    }
+    .portfolio-description{
+        width: auto;
+    }
+    .portfolio-images{
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .subscribe{
+        padding: 20px;
+        margin: 50px auto;
+    }
+    .subscribe-heading{
+        font-size: 2.5rem;
+    }
+    .subscribe-pic img{
+        width: 70%;
+    }
+    .subscribe-btn-div{
+        padding: 0;
+    }
+    .gmail{
+        padding:10px;
+        font-size: 17px;
+        text-align: center;
+        width: 130px;
+    }
+    .subscribe-btn{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .footer-content{
+        padding: 50px 20px;
+    }
+    .contact{
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .footer-address-text{
+        text-align: center;
+    }
+    .copyright{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
