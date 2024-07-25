@@ -542,7 +542,7 @@ footer{
     }
     .offer{
         width: 100%;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     .offer-heading{
         font-size: 44px;
@@ -568,7 +568,7 @@ footer{
     .party-address{
         padding: 20px;
         text-align: left;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     .party-address *{
         font-size: 16px;
@@ -589,6 +589,9 @@ footer{
     .extra-div-pic{
         padding: 20px;
         border: 13px #FF0000 solid;
+    }
+    .holiday{
+        margin-top: 100px;
     }
     .holiday-img{
         height: max-content;
@@ -615,7 +618,7 @@ footer{
         width: 35%;
     }
     .portfolio{
-        margin-top: 350px;
+        margin-top: 400px;
         text-align: center;
     }
     .portfolio-description{
@@ -627,7 +630,7 @@ footer{
     }
     .subscribe{
         padding: 20px;
-        margin: 50px auto;
+        margin: 100px auto;
     }
     .subscribe-heading{
         font-size: 2.5rem;
